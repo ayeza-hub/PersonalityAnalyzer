@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "Result";
+}
+
+<style>
+
+    body {
+        background-color: #eef2f7;
+        font-family: Arial;
+    }
+
+    .result-box {
+        width: 60%;
+        margin: 100px auto;
+        background: white;
+        padding: 50px;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    }
+
+    .result-title {
+        font-size: 45px;
+        color: #333;
+    }
+
+    .result-text {
+        font-size: 25px;
+        margin-top: 25px;
+        color: #555;
+    }
+
+    .btn-home {
+        display: inline-block;
+        margin-top: 35px;
+        padding: 14px 30px;
+        background-color: #0078d7;
+        color: white;
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+        .btn-home:hover {
+            background-color: #005fa3;
+        }
+</style>
+
+<div class="result-box">
+
+    <h1 class="result-title">
+        Your Personality Result
+    </h1>
+
+    <p class="result-text">
+        @ViewBag.Result
+    </p>
+
+    <a class="btn-home" href="/Home/Index">
+        Try Again
+    </a>
+
+</div>

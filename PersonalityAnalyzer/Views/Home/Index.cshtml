@@ -1,0 +1,109 @@
+﻿@{
+    ViewBag.Title = "Personality Test";
+}
+
+<style>
+
+    body {
+        background-color: #f4f6f9;
+        font-family: Arial;
+    }
+
+    .main-container {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .title {
+        font-size: 50px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .subtitle {
+        font-size: 22px;
+        color: #777;
+        margin-bottom: 40px;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: nowrap;
+        margin-top: 40px;
+    }
+
+    .card {
+        background-color: white;
+        width: 220px;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        transition: 0.3s;
+    }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            padding: 15px;
+            font-size: 22px;
+            color: #333;
+            margin: 0;
+        }
+
+    a {
+        text-decoration: none;
+    }
+</style>
+
+<div class="main-container">
+
+    <h1 class="title">Personality Vision Test</h1>
+
+    <p class="subtitle">
+        Choose the first image that attracts you most
+    </p>
+
+    <div class="image-container">
+
+        <div class="card">
+            <a href="/Home/Result?choice=lion">
+                <img src="/Images/loin.jpg" />
+                <h3>Bravery</h3>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="/Home/Result?choice=ocean">
+                <img src="/Images/ocean.jpg" />
+                <h3>Peace</h3>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="/Home/Result?choice=butterfly">
+                <img src="/Images/butterfly.jpg" />
+                <h3>Creativity</h3>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="/Home/Result?choice=mountain">
+                <img src="/Images/mountain.jpg" />
+                <h3>Strength</h3>
+            </a>
+        </div>
+
+    </div>
+
+</div>

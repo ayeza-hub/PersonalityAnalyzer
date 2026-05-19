@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalityAnalyzer", "PersonalityAnalyzer\PersonalityAnalyzer.csproj", "{098A5FA0-771B-44F9-BF1B-3B5647090095}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{098A5FA0-771B-44F9-BF1B-3B5647090095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{098A5FA0-771B-44F9-BF1B-3B5647090095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{098A5FA0-771B-44F9-BF1B-3B5647090095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{098A5FA0-771B-44F9-BF1B-3B5647090095}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3F97BB2-9C2F-4326-9924-08D3C2ACEE4F}
+	EndGlobalSection
+EndGlobal
