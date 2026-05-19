@@ -147,6 +147,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Images\butterfly.jpg" />
+    <Content Include="Images\forest.jpg" />
     <Content Include="Images\loin.jpg" />
     <Content Include="Images\mountain.jpg" />
     <Content Include="Images\ocean.jpg" />
