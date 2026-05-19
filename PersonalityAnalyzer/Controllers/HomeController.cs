@@ -31,6 +31,10 @@ namespace PersonalityAnalyzer.Controllers
                     result = "You are strong, determined and hardworking.";
                     break;
 
+                case "forest":
+                    result = "You are peaceful, thoughtful and connected with nature.";
+                    break;
+
                 default:
                     result = "Unique personality detected.";
                     break;
